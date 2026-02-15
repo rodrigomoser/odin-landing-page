@@ -67,3 +67,19 @@ div.hero h1{
     color: black;
     padding: 0px 8px;
 }
+
+.about-container {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    padding: 64px 0px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div.about-container h2{
+    margin: auto;
+}
