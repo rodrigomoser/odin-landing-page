@@ -69,17 +69,67 @@ div.hero h1{
 }
 
 .about-container {
-    background-color: antiquewhite;
     display: flex;
     flex-direction: column;
-    padding: 64px 0px;
+    padding: 64px 32px;
 }
 
 .about-content {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    max-width: 1440px;
+    gap: 32px;
+    margin: auto;
 }
 
 div.about-container h2{
     margin: auto;
+    font-size: 32px;
+}
+
+div.about-container h3, div.about-container p {
+    text-align: center;
+}
+
+div.about-container h3 {
+    margin-top: 16px;
+    margin-bottom: 0px;
+    font-size: 22px;
+}
+
+div.about-container p {
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.about-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+div.about-items img {
+    width: 120px;
+}
+
+.quotecontainer {
+    padding: 64px;
+    background-color: antiquewhite;
+}
+
+.quotation {
+    max-width: 1440px;
+    margin: auto;
+}
+
+div.quotation p {
+    font-size: 32px;
+    line-height: 160%;
+    font-style: italic;
+}
+
+.signature {
+    text-align: right;
 }
