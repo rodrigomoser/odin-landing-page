@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,9 +15,9 @@
         <div class="header">
             <img src="imgs/logo-touchgrass.svg" alt="" height="52px" class="logo-touchgrass">
             <ul class="menu">
-                <li><a href="link" class="menu-link">About</a></li>
-                <li><a href="link" class="menu-link">Why</a></li>
-                <li><a href="link" class="menu-link">Contact</a></li>
+                <li><a href="#about" class="menu-link">About Grass</a></li>
+                <li><a href="#specialist" class="menu-link">Specialist View</a></li>
+                <li><a href="#getnow" class="menu-link">Get now</a></li>
             </ul>
         </div>
 
@@ -28,7 +31,7 @@
         </div>
     </div>
 
-    <div class="about-container">
+    <div class="about-container" id="about">
         <h2>Some basic shit about grass</h2>
         <div class="about-content">
             <div class="about-items">
@@ -54,28 +57,29 @@
         </div>
     </div>
 
-    <div class="quotecontainer">
+    <div class="quotecontainer" id="specialist">
         <div class="quotation">
-            <p>
-                <span>"</span>
-                Listen, I spend ten hours a day elbow-deep in the dirt just to keep a hydrangea from committing suicide. If you aren't willing to occasionally put down the glowing rectangle and touch something that actually has a pulse—or at least a root system—then don't come crying to me when your soul starts smelling like a basement. Go outside. Touch the grass. If you’re lucky, it might even touch you back, though usually that's just the fire ants.
-                <span>"</span>
-            </p>
-
-            <em>- Your local gardener</em>
+            
+                <p><span>"&nbsp;</span>Do you mean literally touching grass? It’s not actually that nice; it can be itchy, and plenty of ants lurk there. I believe the phrase is more metaphorical, isn't it? It means: go outside and stop lurking on the internet all day.</p>
+                <p>If you're actually thinking about going outside to touch literal grass, you should know that some types can cause a rash. Anyone who actually touches grass can testify to that. Also, did I mention the ants?<span>&nbsp;"</span></p>
+                
+            <b>- Your local gardener</b>
         </div>
     </div>
 
-    <div class="cta">
-        <div class="cta-text">
-            <h2>Call now because you can</h2>
-            <p>Lorem ipsum dolor sit amet</p>
+    <div class="cta-container" id="getnow">
+        <div class="cta">
+            <div class="cta-text">
+                <h2>Get in touch with us now to get your personalized grass</h2>
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+            <button class="btn-secondary">Sign Up</button>
         </div>
-        <button class="btn-secondary">Sign UP</button>
     </div>
 
     <div class="footer">
         Copyright - For education pourpose only 2026
     </div>
+    
 </body>
 </html>

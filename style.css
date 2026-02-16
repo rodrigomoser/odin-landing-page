@@ -3,6 +3,12 @@ body{
     margin: 0;
 }
 
+p {
+    font-size: 16px;
+    line-height: 160%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .top-container{
     background-color: rgb(04, 38, 24);
 }
@@ -38,8 +44,17 @@ body{
 }
 
 .btn-primary{
-    padding: 8px 16px;
+    padding: 16px 32px;
     border-radius: 8px;
+    background-color: #ffd255;
+    border: 0px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-primary:hover {
+    background-color: #fdc427;
+    font-weight: bold;
 }
 
 .menu {
@@ -58,8 +73,8 @@ body{
 }
 
 div.hero h1{
-    font-size: 56px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+    font-family: "Gochi Hand", cursive;
 }
 
 .highlight {
@@ -71,7 +86,7 @@ div.hero h1{
 .about-container {
     display: flex;
     flex-direction: column;
-    padding: 64px 32px;
+    padding: 128px 32px;
 }
 
 .about-content {
@@ -84,7 +99,8 @@ div.hero h1{
 
 div.about-container h2{
     margin: auto;
-    font-size: 32px;
+    font-size: 52px;
+    font-family: "Gochi Hand", cursive;
 }
 
 div.about-container h3, div.about-container p {
@@ -94,7 +110,8 @@ div.about-container h3, div.about-container p {
 div.about-container h3 {
     margin-top: 16px;
     margin-bottom: 0px;
-    font-size: 22px;
+    font-size: 32px;
+    font-family: "Gochi Hand", cursive;
 }
 
 div.about-container p {
@@ -115,7 +132,7 @@ div.about-items img {
 }
 
 .quotecontainer {
-    padding: 64px;
+    padding: 128px 64px;
     background-color: antiquewhite;
 }
 
@@ -128,8 +145,66 @@ div.quotation p {
     font-size: 32px;
     line-height: 160%;
     font-style: italic;
+    
+}
+
+div.quotation span{
+    font-size: 54px;
+    font-family: "Gochi Hand", cursive;
 }
 
 .signature {
     text-align: right;
+}
+
+.cta-container {
+    padding: 128px 0px;
+}
+
+.cta {
+    max-width: 1200px;
+    border-radius: 16px;
+    background-color: rgb(04, 38, 24);
+    padding: 64px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.btn-secondary {
+    padding: 16px 32px;
+    background-color: transparent;
+    color: white;
+    justify-self: center;
+    border-radius: 8px;
+    border: 2px solid white;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-secondary:hover {
+    background-color: rgba(211, 223, 196, 0.25);
+    font-weight: bold;
+}
+
+.footer {
+    background-color: rgb(219, 219, 215);
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+      font-size: 16px;
+    font-weight: bold;
+}
+
+div.cta-text h2 {
+    font-family: "Gochi Hand", cursive;
+    font-size: 32px;
+    margin: 0;
+}
+
+div.cta-text p {
+    margin: 0;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
