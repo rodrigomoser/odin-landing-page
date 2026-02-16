@@ -43,6 +43,14 @@ p {
     flex-shrink: 1;
 }
 
+.hero-img:hover{
+    transform: scale(1.05)
+}
+
+div.hb-left p{
+    margin-bottom: 16px;
+}
+
 .btn-primary{
     padding: 16px 32px;
     border-radius: 8px;
@@ -50,6 +58,8 @@ p {
     border: 0px;
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black;
 }
 
 .btn-primary:hover {
@@ -182,6 +192,9 @@ div.quotation span{
     border: 2px solid white;
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-shrink: 0;
+    margin-left: 64px;
+    text-decoration: none;
 }
 
 .btn-secondary:hover {
@@ -194,7 +207,7 @@ div.quotation span{
     display: flex;
     justify-content: center;
     padding: 32px;
-      font-size: 16px;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -205,6 +218,6 @@ div.cta-text h2 {
 }
 
 div.cta-text p {
-    margin: 0;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 16px 0px 0px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
